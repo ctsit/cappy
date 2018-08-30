@@ -1,4 +1,4 @@
-# cappy v1.1.1
+# cappy v1.2.1
 The Redcap API library that you build yourself.
 
 ## Ideology ##
