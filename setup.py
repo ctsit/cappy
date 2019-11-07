@@ -17,6 +17,6 @@ setup(name='cappy',
       packages=['cappy'],
       include_package_data=True,
       install_requires=[
-          'requests==2.18.4',
-          'pyyaml==3.12'],
+          'requests',
+          'pyyaml'],
       zip_safe=False)

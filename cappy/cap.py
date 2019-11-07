@@ -80,9 +80,9 @@ class API(object):
         # to add by passing 'adhoc_redcap_options' as a kwarg to the function
         # any iterable keys passed in this manner need to have their contents
         # passed the usual way as a kwarg
-        for key, val in kwargs.items():
+        for key, val in list(kwargs.items()):
             if key == 'adhoc_redcap_options':
-                for k, v in val.items():
+                for k, v in list(val.items()):
                     # we done want people to make readonly functions write
                     if not k == 'data':
                         # if we have an iterable
