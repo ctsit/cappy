@@ -13,10 +13,13 @@ setup(name='cappy',
       url='http://github.com/pfwhite/cappy',
       author='Patrick White',
       author_email='pfwhite9@gmail.com',
+      maintainer='UF CTS-IT',
+      maintainer_email='ctsit@ctsi.ufl.edu',
       license='Apache License 2.0',
       packages=['cappy'],
       include_package_data=True,
       install_requires=[
-          'requests==2.18.4',
-          'pyyaml==3.12'],
+          'requests==2.22.0',
+          'PyYAML==5.1.2'
+      ],
       zip_safe=False)
