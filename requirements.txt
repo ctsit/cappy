@@ -1,10 +1,6 @@
-appdirs==1.4.3
-certifi==2017.4.17
+certifi==2019.9.11
 chardet==3.0.4
-idna==2.5
-packaging==16.8
-pyparsing==2.2.0
-PyYAML
-requests==2.18.1
-six==1.10.0
-urllib3==1.21.1
+idna==2.8
+PyYAML==5.1.2
+requests==2.22.0
+urllib3==1.25.6
